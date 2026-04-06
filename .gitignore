@@ -1,0 +1,9 @@
+.idea/
+*.mp4
+*.pt
+checkpoints/
+data/
+logs/
+videos/
+samples/
+__pycache__/
