@@ -32,6 +32,26 @@ Unlike traditional deep learning models that require thousands of labeled images
    \`\`\`bash
    python inference.py --samples path/to/uniform_samples/ --test path/to/target_image.jpg
    \`\`\`
+
+cat <<EOF >> README.md
+
+## 🔒 Model Checkpoints
+The trained model weights are securely hosted on **Hugging Face**.
+- **Model URL:** [huggingface.co/diorbek2002/Uniform](https://huggingface.co/diorbek2002/Uniform)
+- **Status:** Private (Access granted upon request or with valid HF Token).
+
+### How to use:
+To load the model in your code, ensure you have the \`huggingface_hub\` library installed and are logged in:
+\`\`\`python
+from huggingface_hub import hf_hub_download
+model_path = hf_hub_download(repo_id="diorbek2002/Uniform", filename="best.pt", use_auth_token=True)
+\`\`\`
+EOF
+
+# GitHub-ga yuborish
+git add README.md
+git commit -m "Update README with private model info"
+git push
 EOF
 
 # GitHub-ga yuborish
