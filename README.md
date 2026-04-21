@@ -1,6 +1,7 @@
 cat <<EOF > README.md
 # Few-Shot Uniform Detection Model
-<img width="1682" height="1177" alt="image" src="https://github.com/user-attachments/assets/a9588d3d-d7fd-4bc8-8200-125cde55dc03" />
+<img width="1682" height="1177" alt="image" src="https://github.com/user-attachments/assets/450ec653-4e87-4c35-bb4a-c3f1800d6715" />
+
 
 
 A specialized Computer Vision model designed to distinguish between individuals wearing uniforms and those who are not, using a **Few-Shot Learning** approach. 
